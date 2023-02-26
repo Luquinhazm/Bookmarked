@@ -1,8 +1,8 @@
 import Formulario from '../../componentes/Formulario';
 import Logo from '../../componentes/Logo';
-import './BemVindo.css'
+import './Login.css'
 
-const BemVindo = () =>{
+const Login = () =>{
   return (
     <section className='secao'>
       <div className='texto-container'>
@@ -14,4 +14,4 @@ const BemVindo = () =>{
   );
 }
 
-export default BemVindo;
+export default Login;

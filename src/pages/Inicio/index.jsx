@@ -4,13 +4,13 @@ import CHeader from '../../componentes/CHeader';
 
 const Sobre = () => {
     return (
-        <div>
+        <main>
            <CHeader/>
            <CardPublicacao/>
            <CardPublicacao/>
            <CardPublicacao/>
            <BotaoAdicionar/>
-        </div>
+        </main>
     );
 }
 
