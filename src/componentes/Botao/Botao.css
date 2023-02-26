@@ -8,6 +8,7 @@
     cursor: pointer;
     margin: 8px 0;
     transition: all 0.5s;
+    color: #fff;
 }
 
 .botao:hover{

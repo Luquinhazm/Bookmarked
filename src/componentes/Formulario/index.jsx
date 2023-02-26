@@ -4,15 +4,18 @@ import CampoTexto from '../CampoTexto';
 import './Formulario.css'
 
 const Formulario = ({titulo}) => {
+    const enviar = (e)=>{
+        e.preventDefault()
+    }
+
+
     return (
         <section className="formulario">
-            <form>
+            <form onSubmit={enviar}>
                 <h2>{titulo}</h2>
                 <CampoTexto label='Email' placeholder='Digite seu email' />
                 <CampoTexto label='Senha' placeholder='Digite sua senha' />
-                <Botao>
-                    <Link to="/inicio">Entrar</Link>
-                </Botao>
+                <Botao to="/inicio" nome='Entrar'/>
             </form>
         </section>
     )

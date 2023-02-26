@@ -1,0 +1,30 @@
+.botao-adicionar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    border: none;
+    background-color: #7ed07a;
+    bottom: 5%;
+    color: white;
+    right: 10%;
+    font-size: 48px;
+    -webkit-box-shadow: 6px 8px 8px -5px rgba(54,128,59,1);
+    -moz-box-shadow: 6px 8px 8px -5px rgba(54,128,59,1);
+    box-shadow: 6px 8px 8px -5px rgba(54,128,59,1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.botao-adicionar:hover{
+    scale: 1.05;
+}
+
+.botao-adicionar:focus{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}

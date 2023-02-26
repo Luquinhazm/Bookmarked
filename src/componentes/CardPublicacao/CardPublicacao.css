@@ -1,0 +1,48 @@
+.card-publicacao{
+    display: flex;
+    padding: 24px;
+    width: 800px;
+    justify-content: space-between;
+    margin: 12px auto;
+    border-bottom: 2px solid #f7f7f7;
+}
+
+.card-publicacao .wrapper-imagens{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    width: 20%;
+}
+
+.card-publicacao .wrapper-imagens .foto-user{
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+
+.card-publicacao .wrapper-imagens .nome-usuario{
+    position: absolute;
+    left: 22px;
+    font-weight: 700;
+}
+
+.card-publicacao .wrapper-textos{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.card-publicacao .infos-livro{
+    display: flex;
+    align-items:baseline;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.card-publicacao .wrapper-textos .reacao{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    gap: 12px;
+    flex-grow: 1;
+}

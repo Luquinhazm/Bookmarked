@@ -1,0 +1,28 @@
+.CHeader{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(61, 77, 53);
+    padding: 12px;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.CHeader .wrapper-nav{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.CHeader h1{
+    text-align: center;
+}
+
+
+.CHeader ul{
+    display: flex;
+    gap: 32px;
+    color: #fff;
+    list-style: none;
+}
+

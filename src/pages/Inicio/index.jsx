@@ -1,10 +1,15 @@
-import { Link } from 'react-router-dom';
+import BotaoAdicionar from '../../componentes/BotaoAdicionar';
+import CardPublicacao from '../../componentes/CardPublicacao';
+import CHeader from '../../componentes/CHeader';
 
 const Sobre = () => {
     return (
         <div>
-            <h1>Sobre</h1>
-            <Link to="/">retornar a página inicial</Link>
+           <CHeader/>
+           <CardPublicacao/>
+           <CardPublicacao/>
+           <CardPublicacao/>
+           <BotaoAdicionar/>
         </div>
     );
 }

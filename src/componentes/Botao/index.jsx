@@ -1,9 +1,12 @@
 import './Botao.css'
+import { useNavigate } from 'react-router-dom'
 
 const Botao = (props) =>{
+    const navigate = useNavigate()
+    
     return (
         <>
-        <button className='botao'>{props.children}</button>
+        <button className='botao' onClick={()=> navigate(props.to)}>{props.nome}</button>
         </>
     )
 }

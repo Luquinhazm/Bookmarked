@@ -5,8 +5,8 @@ import Inicio from "./pages/Inicio";
 export function Router(){
     return (
         <Routes>
-            <Route path="/" element={<BemVindo/>}/>
-            <Route path="/Inicio" element={<Inicio/>}/>
+            <Route path="/" exact element={<BemVindo/>}/>
+            <Route path="/inicio" element={<Inicio/>}/>
         </Routes>
     )
 }
